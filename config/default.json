@@ -1,0 +1,4 @@
+{
+  "jwtPrivateKey": "mySecretKey",
+  "db": "mongodb+srv://raizo:JavaScript2@cluster0.n6j9k.mongodb.net/vidly?retryWrites=true&w=majority"
+}

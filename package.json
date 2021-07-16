@@ -1,0 +1,45 @@
+{
+  "name": "genres",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest --watchAll --verbose --coverage --runInBand",
+    "ig-test": "SET NODE_ENV=test& nodemon index.js"
+  },
+  "engines": {
+    "node": "14.16.1"
+  },
+  "istanbul-reports": "file:../test-istanbul/istanbuljs/packages/istanbul-reports/istanbul-reports-2.2.5.tgz",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "compression": "^1.7.2",
+    "config": "3.3.1",
+    "express": "^4.17.1",
+    "express-async-errors": "^2.1.0",
+    "fawn": "^2.1.5",
+    "helmet": "^3.11.0",
+    "joi": "^17.4.0",
+    "joi-objectid": "^3.0.1",
+    "joi-password-complexity": "^5.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.20.1",
+    "mongoose": "^5.11.15",
+    "winston": "^3.3.3",
+    "winston-mongodb": "^5.0.7"
+  },
+  "devDependencies": {
+    "handlebars": "^4.5.3",
+    "jest": "^22.4.4",
+    "supertest": "^3.0.0"
+  },
+  "jest": {
+    "verbose": true,
+    "testURL": "http://localhost/"
+  }
+}
